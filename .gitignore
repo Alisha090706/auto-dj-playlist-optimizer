@@ -1,0 +1,27 @@
+# Dataset — too large for git, download instructions are in README.md
+data/genres_original/
+ 
+# Generated audio outputs (regenerated on each run, not source code)
+transitions/
+*.wav
+preview_transition.wav
+full_playlist_mix.wav
+ 
+# Generated charts (keep curated ones manually if you want them in the repo,
+# e.g. by force-adding: git add -f before_reorder.png)
+*.png
+ 
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ 
+# Environment
+.venv/
+venv/
+*.egg-info/
+ 
+# OS/editor noise
+.DS_Store
+.vscode/
+ 
