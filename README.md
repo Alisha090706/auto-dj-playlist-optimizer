@@ -60,7 +60,7 @@ This combination consistently outperforms greedy alone — see [Results](#result
 For any consecutive pair, the system extracts the last few seconds of the first track and the first few seconds of the second, and **crossfades** them together (linear fade-out on one, fade-in on the other, overlapping) so the preview sounds like an actual DJ transition rather than an abrupt cut. The same logic stitches the entire optimized playlist into one continuous mix.
 
 ## Results
-
+[Auto DJ](https://huggingface.co/spaces/Alisha090706/auto-dj-playlist-optimizer)
 On a 50-track test set spanning 5 genres (classical, disco, blues, rock, hiphop):
 
 | Stage | Average pairwise compatibility score |
@@ -70,6 +70,8 @@ On a 50-track test set spanning 5 genres (classical, disco, blues, rock, hiphop)
 | Greedy + 2-opt refinement | 76.6 |
 
 2-opt converged in 4 iterations on this dataset, completing in under 2 seconds.
+
+## Deployed Link
 
 ## Known limitations
 
