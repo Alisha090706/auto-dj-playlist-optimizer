@@ -72,7 +72,7 @@ On a 50-track test set spanning 5 genres (classical, disco, blues, rock, hiphop)
 2-opt converged in 4 iterations on this dataset, completing in under 2 seconds.
 
 ## Deployed Link
-[Auto-DJ] (https://huggingface.co/spaces/Alisha090706/auto-dj-playlist-optimizer)
+[Auto-DJ](https://huggingface.co/spaces/Alisha090706/auto-dj-playlist-optimizer)
 
 ## Known limitations
 
